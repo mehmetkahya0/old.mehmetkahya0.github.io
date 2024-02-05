@@ -1,0 +1,320 @@
+:root {
+  font-family: "popins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  /* font settings*/
+  --header-font-size: 1.5rem;
+  --body-font-size: 0.875rem;
+  --body-font-size: 0.875rem;
+  --header-font-weight: bolder;
+  --body-font-weight: 400;
+  --footer-font-weight: 400;
+  --header-line-height: 1.2;
+  --body-line-height: 1.5;
+  --footer-line-height: 1.5;
+  --header-letter-spacing: 0.5px;
+  --body-letter-spacing: 0.5px;
+  --footer-letter-spacing: 0.5px;
+  --header-text-transform: none;
+  --body-text-transform: none;
+  --footer-text-transform: none;
+
+  /* Colors */
+  --primary-color: #0082fc1c;
+  --secondary-color: #000000;
+  --success-color: #28a745;
+  --info-color: #17a2b8;
+  --warning-color: #ffc107;
+  --danger-color: #dc3545;
+  --light-color: #f0f0f0;
+  --dark-color: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+}
+header {
+  color: var(--dark-color);
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+header h1 {
+  font-size: var(--header-font-size);
+  font-weight: var(--header-font-weight);
+  line-height: var(--header-line-height);
+  letter-spacing: var(--header-letter-spacing);
+  text-transform: var(--header-text-transform);
+}
+
+header nav ul li a {
+  color: #0082fc;
+  text-decoration: none;
+  font-size: var(--body-font-size);
+  font-weight: var(--header-font-weight);
+  line-height: var(--body-line-height);
+  letter-spacing: var(--body-letter-spacing);
+  text-transform: var(--body-text-transform);
+}
+header nav ul li a:hover {
+  color: var(--light-color);
+  background-color: #0082fc;
+  padding: 10px;
+  border-radius: 5px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  font-size: var(--body-font-size);
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  font-weight: bolder;
+  opacity: 0.8;
+  font-size: var(--body-font-size);
+}
+
+nav ul li a {
+  color: var(--dark-color);
+  text-decoration: none;
+  font-size: var(--body-font-size);
+  font-weight: var(--body-font-weight);
+  line-height: var(--body-line-height);
+  letter-spacing: var(--body-letter-spacing);
+  text-transform: var(--body-text-transform);
+
+}
+
+nav ul li a {
+  color: var(--dark-color);
+  text-decoration: none;
+  font-size: var(--body-font-size);
+  font-weight: var(--body-font-weight);
+  line-height: var(--body-line-height);
+  letter-spacing: var(--body-letter-spacing);
+  text-transform: var(--body-text-transform);
+}
+
+hr {
+  margin: auto;
+  border: 0;
+  border-top: 1.5px solid var(--dark-color);
+}
+
+h2 {
+  font-size: var(--header-font-size);
+  font-weight: var(--header-font-weight);
+  line-height: var(--header-line-height);
+  letter-spacing: var(--header-letter-spacing);
+  text-transform: var(--header-text-transform);
+  color: var(--dark-color);
+  margin-bottom: 1rem;
+  margin-left: 10px;
+  background-color: var(--primary-color);
+  height: 100%;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+a {
+  color: rgb(0, 81, 255);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+div {
+  border-radius: 5px !important;
+}
+
+p {
+  font-size: var(--body-font-size);
+  font-weight: var(--header-font-weight);
+  line-height: var(--body-line-height);
+  letter-spacing: var(--body-letter-spacing);
+  text-transform: var(--body-text-transform);
+  color: var(--dark-color);
+  margin-bottom: 1rem;
+}
+
+/* Media Queries */
+
+.bio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  background-color: var(--light-color);
+  text-align: left;
+  justify-content: left;
+}
+
+.bio p{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.education {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  background-color: var(--light-color);
+  text-align: left;
+  justify-content: left;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  background-color: var(--light-color);
+  text-align: left;
+  justify-content: left;
+}
+
+.hobbies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  background-color: var(--light-color);
+  text-align: left;
+  justify-content: left;
+}
+
+.languages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  background-color: var(--light-color);
+  text-align: left;
+  justify-content: left;
+}
+
+.certificates {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  background-color: var(--light-color);
+  text-align: left;
+  justify-content: left;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  background-color: var(--light-color);
+  text-align: left;
+  justify-content: left;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  background-color: var(--light-color);
+  text-align: left;
+  justify-content: left;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  background-color: var(--light-color);
+  text-align: center;
+  font-size: large;
+  justify-content: center;
+  font-weight: bolder;
+}
+
+@keyframes blink {
+  0% {
+    background-color: var(--danger-color);
+  }
+
+  100% {
+    border: 2px solid var(--danger-color);
+  }
+}
+
+.red-border {
+  border: 0px solid red;
+  animation: blink 1.5s alternate;
+}
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 0.875rem;
+  }
+  ul {
+    font-size: 0.875rem;
+  }
+  nav{
+    font-size: 0.875rem;
+  }
+  li{
+    font-size: 0.875rem;
+  }
+}
