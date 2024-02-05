@@ -295,6 +295,25 @@ p {
   box-shadow: 0px 0px 5px 0px var(--shadow-color);
 }
 
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  background-color: var(--light-color);
+  text-align: left;
+  justify-content: left;
+}
+.social ul{
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+.social:hover {
+  box-shadow: 0px 0px 5px 0px var(--shadow-color);
+}
+
 footer {
   display: flex;
   justify-content: center;
