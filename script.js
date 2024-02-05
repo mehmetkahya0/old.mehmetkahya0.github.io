@@ -26,6 +26,17 @@ document
 });
 
 
+
+
+
+
+
+
+
+
+
+
+//CERTIFICATES BARS
 function updateProgress1(percent) {
   var element = document.getElementById("progress1");
   element.style.width = percent + "%";
@@ -65,3 +76,78 @@ function updateProgress5(percent) {
 }
 // Example usage:
 updateProgress5(15); // Sets the progress bar to 50%
+
+
+
+
+
+
+
+
+
+
+// SKILL SECTION
+function updateProgress6(percent) {
+  var element = document.getElementById("skill-progress1");
+  element.style.width = percent + "%";
+}
+
+// Example usage:
+updateProgress6(95); // Sets the progress bar to 50%
+
+function updateProgress7(percent) {
+  var element = document.getElementById("skill-progress2");
+  element.style.width = percent + "%";
+}
+// Example usage:
+updateProgress7(95); // Sets the progress bar to 50%
+
+
+function updateProgress8(percent) {
+  var element = document.getElementById("skill-progress3");
+  element.style.width = percent + "%";
+}
+// Example usage:
+updateProgress8(60); // Sets the progress bar to 50%
+
+
+function updateProgress9(percent) {
+  var element = document.getElementById("skill-progress4");
+  element.style.width = percent + "%";
+}
+// Example usage:
+updateProgress9(80); // Sets the progress bar to 50%
+
+
+
+function updateProgress10(percent) {
+  var element = document.getElementById("skill-progress5");
+  element.style.width = percent + "%";
+}
+// Example usage:
+updateProgress10(95); // Sets the progress bar to 50%
+
+
+function updateProgress11(percent) {
+  var element = document.getElementById("skill-progress6");
+  element.style.width = percent + "%";
+}
+// Example usage:
+updateProgress11(40); // Sets the progress bar to 50%
+
+
+function updateProgress12(percent) {
+  var element = document.getElementById("skill-progress7");
+  element.style.width = percent + "%";
+}
+// Example usage:
+updateProgress12(50); // Sets the progress bar to 50%
+
+
+
+function updateProgress13(percent) {
+  var element = document.getElementById("skill-progress8");
+  element.style.width = percent + "%";
+}
+// Example usage:
+updateProgress13(85); // Sets the progress bar to 50%
