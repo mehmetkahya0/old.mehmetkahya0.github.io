@@ -39,6 +39,21 @@
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
 }
+canvas {
+  display: block;
+}
+
+spline-viewer {
+  display: flex;
+  width: 50%;
+  height: auto;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 5px;
+  background-color: var(--light-color);
+  box-shadow: 0px 0px 5px 0px var(--shadow-color);
+  margin-bottom: 2rem;
+}
 header {
   color: var(--dark-color);
   padding: 1rem;
