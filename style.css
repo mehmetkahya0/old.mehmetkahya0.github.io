@@ -414,4 +414,8 @@ footer p {
   li {
     font-size: 0.875rem;
   }
+  spline-viewer {
+    width: 100%;
+    height: auto;
+  }
 }
