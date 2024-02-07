@@ -23,18 +23,7 @@ document
     for (var i = 0; i < bioElements.length; i++) {
       bioElements[i].classList.add("red-border");
     }
-});
-
-
-
-
-
-
-
-
-
-
-
+  });
 
 //CERTIFICATES BARS
 function updateProgress1(percent) {
@@ -52,14 +41,12 @@ function updateProgress2(percent) {
 // Example usage:
 updateProgress2(95); // Sets the progress bar to 50%
 
-
 function updateProgress3(percent) {
   var element = document.getElementById("progress3");
   element.style.width = percent + "%";
 }
 // Example usage:
 updateProgress3(60); // Sets the progress bar to 50%
-
 
 function updateProgress4(percent) {
   var element = document.getElementById("progress4");
@@ -68,23 +55,12 @@ function updateProgress4(percent) {
 // Example usage:
 updateProgress4(40); // Sets the progress bar to 50%
 
-
-
 function updateProgress5(percent) {
   var element = document.getElementById("progress5");
   element.style.width = percent + "%";
 }
 // Example usage:
 updateProgress5(15); // Sets the progress bar to 50%
-
-
-
-
-
-
-
-
-
 
 // SKILL SECTION
 function updateProgress6(percent) {
@@ -102,14 +78,12 @@ function updateProgress7(percent) {
 // Example usage:
 updateProgress7(95); // Sets the progress bar to 50%
 
-
 function updateProgress8(percent) {
   var element = document.getElementById("skill-progress3");
   element.style.width = percent + "%";
 }
 // Example usage:
 updateProgress8(60); // Sets the progress bar to 50%
-
 
 function updateProgress9(percent) {
   var element = document.getElementById("skill-progress4");
@@ -118,15 +92,12 @@ function updateProgress9(percent) {
 // Example usage:
 updateProgress9(80); // Sets the progress bar to 50%
 
-
-
 function updateProgress10(percent) {
   var element = document.getElementById("skill-progress5");
   element.style.width = percent + "%";
 }
 // Example usage:
 updateProgress10(95); // Sets the progress bar to 50%
-
 
 function updateProgress11(percent) {
   var element = document.getElementById("skill-progress6");
@@ -135,7 +106,6 @@ function updateProgress11(percent) {
 // Example usage:
 updateProgress11(40); // Sets the progress bar to 50%
 
-
 function updateProgress12(percent) {
   var element = document.getElementById("skill-progress7");
   element.style.width = percent + "%";
@@ -143,11 +113,23 @@ function updateProgress12(percent) {
 // Example usage:
 updateProgress12(50); // Sets the progress bar to 50%
 
-
-
 function updateProgress13(percent) {
   var element = document.getElementById("skill-progress8");
   element.style.width = percent + "%";
 }
 // Example usage:
 updateProgress13(85); // Sets the progress bar to 50%
+
+function updateProgress14(percent) {
+  var element = document.getElementById("skill-progress9");
+  element.style.width = percent + "%";
+}
+// Example usage:
+updateProgress14(5); // Sets the progress bar to 50%
+
+function updateProgress15(percent) {
+  var element = document.getElementById("skill-progress10");
+  element.style.width = percent + "%";
+}
+// Example usage:
+updateProgress15(95); // Sets the progress bar to 50%
