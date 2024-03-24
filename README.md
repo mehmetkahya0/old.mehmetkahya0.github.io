@@ -1,4 +1,4 @@
-Release Notes for Mehmet Kahya's Portfolio v2
+Mehmet Kahya's Portfolio v2
 I'm excited to announce the second release of Mehmet Kahya's Portfolio. This personal portfolio showcases My skills, projects, and contact information. It's designed to be responsive and accessible, providing a seamless experience across different devices and screen sizes.
 
 New Features
